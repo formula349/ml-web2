@@ -1,0 +1,12 @@
+{
+  "name": "tlt",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "snowpack dev"
+  },
+  "devDependencies": {
+    "snowpack": "^2.18.2"
+  }
+}
