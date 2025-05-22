@@ -10175,8 +10175,10 @@ header.masthead h1 {
 }
 
 .wide { display: none;}
+.narrow { display: block; }
 @media (max-width: 768px) {	.bordered .col-lg-4 div { margin: auto; max-width: 12em; } }
 @media (min-width: 768px) {
+	.narrow { display: none; }
 	.bordered {
 		border: 1px solid white;
 		border-width: 0.2rem;
@@ -10186,23 +10188,23 @@ header.masthead h1 {
 	.wide { display: block;}
 	.bordered .tl {
 		position: relative;
-		top: 4em;
+		top: 6em;
 		left: 4em;
 	}
 	.bordered .tr {
 		position: relative;
-		top: 4em;
+		top: 6em;
 		left: -4em;
 	}
 	.bordered .bl {
 		position: relative;
-		top: -4em;
+		top: -5em;
 		left: 4em;
 		margin-bottom: 3rem
 	}
 	.bordered .br {
 		position: relative;
-		top: -4em;
+		top: -5em;
 		left: -4em;
 		margin-bottom: 3rem
 	}
@@ -10212,3 +10214,5 @@ header.masthead h1 {
 	.move-right .profile-name { text-align: right; }
 	.move-right div { place-items: end; }
 }
+
+#services p { max-width: 20em; margin: auto; }
