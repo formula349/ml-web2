@@ -10033,7 +10033,7 @@ svg.logo .p2 {
   color: var(--primary) !important;
 }
 
-.arrow-down {
+.arrow-down, .arrow-down-right {
   width: 0;
   height: 0;
   border-left: 25px solid transparent;
@@ -10041,6 +10041,11 @@ svg.logo .p2 {
   border-top: 20px solid #fff;
   margin-left: 85px;
 }
+.arrow-down-right {
+	margin-left: 0;
+	margin-right: 85px;
+}
+
 .profile {
   margin: 1em;
   text-align: left;
@@ -10210,7 +10215,7 @@ header.masthead h1 {
 	}
 
 	.move-right .profile { flex-direction: row-reverse; }
-	.move-right .profile .far { margin-left: 0.325em; }
+	.move-right .profile img { margin-left: 1em; }
 	.move-right .profile-name { text-align: right; }
 	.move-right div { place-items: end; }
 }
